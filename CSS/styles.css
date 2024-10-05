@@ -1,0 +1,35 @@
+  body {
+  margin: 100px;
+  }
+  
+  .container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  }
+  
+  .box {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  }
+
+  .box:nth-child(1) {
+  background-color: #f98989;
+  margin-left: 0;
+  z-index: 1;
+  }
+
+  .box:nth-child(2) {
+  background-color: #8391ec;
+  top: 100px;
+  left: 100px;
+  z-index: 2;
+  }
+
+  .box:nth-child(3) {
+  background-color: #63e58e;
+  top: 200px;
+  left: 200px;
+  z-index: 1;
+  }
